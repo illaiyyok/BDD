@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Sat Apr 27 09:17:12 PDT 2019
+stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story=3000
+threads=1
+total=3000
+threadAverage=3000

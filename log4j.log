@@ -1,0 +1,582 @@
+21:09:14 INFO  Main:114 - Found Stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+21:12:09 ERROR Steps:262 - Browser not supported: chrome
+21:12:09 INFO  LogUtil:37 - Logger : Browser not supported: chrome
+21:38:46 INFO  Main:114 - Found Stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+23:47:26 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+23:55:03 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+22:15:13 INFO  Main:193 - Found stories: []
+22:22:08 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+22:22:19 INFO  Steps:173 - End Ponint is running
+22:22:19 INFO  LogUtil:37 - Logger : End Ponint is running
+22:22:23 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:22:23 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:22:23 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+22:22:23 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+22:22:23 INFO  RESTHelper:179 - value of Total is --->:12
+22:22:23 INFO  LogUtil:37 - Logger : value of Total is --->:12
+22:22:23 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:22:23 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:22:23 INFO  Steps:173 - End Ponint is running
+22:22:23 INFO  LogUtil:37 - Logger : End Ponint is running
+22:22:23 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:22:23 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:22:23 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+22:22:23 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+22:22:23 INFO  RESTHelper:224 - value of Total is --->:12
+22:22:23 INFO  LogUtil:37 - Logger : value of Total is --->:12
+22:22:23 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:22:23 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:22:23 INFO  Steps:173 - End Ponint is running
+22:22:23 INFO  LogUtil:37 - Logger : End Ponint is running
+22:22:25 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+22:22:26 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-20T21:27:26.857Z","name":"Bluth","id":"706","job":"Janet"}
+22:22:26 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+22:22:26 INFO  LogUtil:37 - Logger : JOB.....>Janet
+22:22:26 INFO  LogUtil:37 - Logger : ID.....>Janet
+22:22:26 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-20T21:27:26.857Z
+22:22:26 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+22:22:26 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+22:22:26 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+22:22:26 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+22:22:26 INFO  Steps:150 - GOT RESPONSE --->: PASS
+22:22:26 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+22:34:31 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+22:34:38 INFO  Steps:173 - End Ponint is running
+22:34:38 INFO  LogUtil:37 - Logger : End Ponint is running
+22:34:39 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:34:39 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:34:39 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+22:34:39 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+22:34:39 INFO  RESTHelper:179 - value of Total is --->:12
+22:34:39 INFO  LogUtil:37 - Logger : value of Total is --->:12
+22:34:39 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:34:39 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:34:39 INFO  Steps:173 - End Ponint is running
+22:34:39 INFO  LogUtil:37 - Logger : End Ponint is running
+22:34:39 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:34:39 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+22:34:39 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+22:34:39 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+22:34:39 INFO  RESTHelper:224 - value of Total is --->:12
+22:34:39 INFO  LogUtil:37 - Logger : value of Total is --->:12
+22:34:39 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:34:39 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+22:34:39 INFO  Steps:173 - End Ponint is running
+22:34:39 INFO  LogUtil:37 - Logger : End Ponint is running
+22:34:40 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+22:34:40 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-20T21:39:41.409Z","name":"Bluth","id":"428","job":"Janet"}
+22:34:40 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+22:34:40 INFO  LogUtil:37 - Logger : JOB.....>Janet
+22:34:40 INFO  LogUtil:37 - Logger : ID.....>Janet
+22:34:40 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-20T21:39:41.409Z
+22:34:40 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+22:34:40 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+22:34:41 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+22:34:41 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+22:34:41 INFO  Steps:150 - GOT RESPONSE --->: PASS
+22:34:41 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+12:59:32 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+12:59:48 INFO  Steps:173 - End Ponint is running
+12:59:48 INFO  LogUtil:37 - Logger : End Ponint is running
+12:59:56 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+12:59:56 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+12:59:56 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+12:59:56 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+12:59:56 INFO  RESTHelper:179 - value of Total is --->:12
+12:59:56 INFO  LogUtil:37 - Logger : value of Total is --->:12
+12:59:56 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+12:59:56 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+12:59:56 INFO  Steps:173 - End Ponint is running
+12:59:56 INFO  LogUtil:37 - Logger : End Ponint is running
+12:59:57 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+12:59:57 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+12:59:57 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+12:59:57 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+12:59:57 INFO  RESTHelper:224 - value of Total is --->:12
+12:59:57 INFO  LogUtil:37 - Logger : value of Total is --->:12
+12:59:57 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+12:59:57 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+12:59:57 INFO  Steps:173 - End Ponint is running
+12:59:57 INFO  LogUtil:37 - Logger : End Ponint is running
+12:59:59 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+12:59:59 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-21T12:04:57.407Z","name":"Bluth","id":"645","job":"Janet"}
+12:59:59 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+12:59:59 INFO  LogUtil:37 - Logger : JOB.....>Janet
+12:59:59 INFO  LogUtil:37 - Logger : ID.....>Janet
+12:59:59 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-21T12:04:57.407Z
+12:59:59 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+12:59:59 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+13:00:00 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:00:00 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:00:00 INFO  Steps:150 - GOT RESPONSE --->: PASS
+13:00:00 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+13:10:13 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+13:10:29 INFO  Steps:173 - End Ponint is running
+13:10:29 INFO  LogUtil:37 - Logger : End Ponint is running
+13:10:30 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:10:30 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:10:30 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+13:10:30 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+13:10:30 INFO  RESTHelper:179 - value of Total is --->:12
+13:10:30 INFO  LogUtil:37 - Logger : value of Total is --->:12
+13:10:30 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:10:30 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:10:30 INFO  Steps:173 - End Ponint is running
+13:10:30 INFO  LogUtil:37 - Logger : End Ponint is running
+13:10:30 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:10:30 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:10:30 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+13:10:30 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+13:10:30 INFO  RESTHelper:224 - value of Total is --->:12
+13:10:30 INFO  LogUtil:37 - Logger : value of Total is --->:12
+13:10:30 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:10:30 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:10:31 INFO  Steps:173 - End Ponint is running
+13:10:31 INFO  LogUtil:37 - Logger : End Ponint is running
+13:10:31 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+13:10:31 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-21T12:15:29.458Z","name":"Bluth","id":"237","job":"Janet"}
+13:10:31 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+13:10:31 INFO  LogUtil:37 - Logger : JOB.....>Janet
+13:10:31 INFO  LogUtil:37 - Logger : ID.....>Janet
+13:10:31 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-21T12:15:29.458Z
+13:10:31 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+13:10:31 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+13:10:32 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:10:32 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:10:32 INFO  Steps:150 - GOT RESPONSE --->: PASS
+13:10:32 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+13:11:55 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+13:14:14 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+13:14:22 INFO  Steps:173 - End Ponint is running
+13:14:22 INFO  LogUtil:37 - Logger : End Ponint is running
+13:14:23 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:14:23 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:14:23 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+13:14:23 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+13:14:23 INFO  RESTHelper:179 - value of Total is --->:12
+13:14:23 INFO  LogUtil:37 - Logger : value of Total is --->:12
+13:14:23 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:14:23 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:14:23 INFO  Steps:173 - End Ponint is running
+13:14:23 INFO  LogUtil:37 - Logger : End Ponint is running
+13:14:23 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:14:23 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+13:14:23 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+13:14:23 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+13:14:23 INFO  RESTHelper:224 - value of Total is --->:12
+13:14:23 INFO  LogUtil:37 - Logger : value of Total is --->:12
+13:14:23 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:14:23 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+13:14:23 INFO  Steps:173 - End Ponint is running
+13:14:23 INFO  LogUtil:37 - Logger : End Ponint is running
+13:14:23 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+13:14:24 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-21T12:19:22.032Z","name":"Bluth","id":"452","job":"Janet"}
+13:14:24 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+13:14:24 INFO  LogUtil:37 - Logger : JOB.....>Janet
+13:14:24 INFO  LogUtil:37 - Logger : ID.....>Janet
+13:14:24 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-21T12:19:22.032Z
+13:14:24 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+13:14:24 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+13:14:24 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:14:24 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+13:14:24 INFO  Steps:150 - GOT RESPONSE --->: PASS
+13:14:24 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+13:15:28 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+14:29:38 ERROR Main:199 - Error running story!
+java.lang.NullPointerException
+	at com.boi.ccr.mb.testware.config.ApplicationProperties.getProperty(ApplicationProperties.java:47)
+	at com.boi.ccr.mb.testware.config.ApplicationProperties.getStoriesFilter(ApplicationProperties.java:33)
+	at com.boi.ccr.mb.testware.Main.findStories(Main.java:211)
+	at com.boi.ccr.mb.testware.Main.run(Main.java:191)
+	at com.boi.ccr.mb.testware.Main.main(Main.java:263)
+14:31:42 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+14:31:50 INFO  Steps:173 - End Ponint is running
+14:31:50 INFO  LogUtil:37 - Logger : End Ponint is running
+14:31:51 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+14:31:51 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+14:31:51 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+14:31:51 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+14:31:51 INFO  RESTHelper:179 - value of Total is --->:12
+14:31:51 INFO  LogUtil:37 - Logger : value of Total is --->:12
+14:31:51 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+14:31:51 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+14:31:51 INFO  Steps:173 - End Ponint is running
+14:31:51 INFO  LogUtil:37 - Logger : End Ponint is running
+14:31:52 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+14:31:52 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+14:31:52 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+14:31:52 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+14:31:52 INFO  RESTHelper:224 - value of Total is --->:12
+14:31:52 INFO  LogUtil:37 - Logger : value of Total is --->:12
+14:31:52 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+14:31:52 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+14:31:52 INFO  Steps:173 - End Ponint is running
+14:31:52 INFO  LogUtil:37 - Logger : End Ponint is running
+14:31:53 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+14:31:54 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-21T13:36:52.035Z","name":"Bluth","id":"436","job":"Janet"}
+14:31:54 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+14:31:54 INFO  LogUtil:37 - Logger : JOB.....>Janet
+14:31:54 INFO  LogUtil:37 - Logger : ID.....>Janet
+14:31:54 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-21T13:36:52.035Z
+14:31:54 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+14:31:54 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+14:31:54 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+14:31:54 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+14:31:54 INFO  Steps:150 - GOT RESPONSE --->: PASS
+14:31:54 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+14:38:51 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story]
+20:22:59 INFO  Main:193 - Found stories: [stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story]
+20:23:01 INFO  Steps:173 - End Ponint is running
+20:23:01 INFO  LogUtil:37 - Logger : End Ponint is running
+20:23:02 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Janet","id":null,"createdAt":null}
+20:23:06 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-21T19:28:03.631Z","name":"Bluth","id":"683","job":"Janet"}
+20:23:06 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+20:23:06 INFO  LogUtil:37 - Logger : JOB.....>Janet
+20:23:06 INFO  LogUtil:37 - Logger : ID.....>Janet
+20:23:06 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-21T19:28:03.631Z
+20:38:39 INFO  Main:193 - Found stories: [stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story]
+20:38:43 INFO  Steps:173 - End Ponint is running
+20:38:43 INFO  LogUtil:37 - Logger : End Ponint is running
+20:38:45 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Leader","id":null,"createdAt":null}
+20:41:32 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story, stories/01.Phase1/03.SOAP_API_Request/a.country.story]
+20:41:40 INFO  Steps:173 - End Ponint is running
+20:41:40 INFO  LogUtil:37 - Logger : End Ponint is running
+20:42:07 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:42:07 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:42:07 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+20:42:07 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+20:42:07 INFO  RESTHelper:179 - value of Total is --->:12
+20:42:07 INFO  LogUtil:37 - Logger : value of Total is --->:12
+20:42:07 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:42:07 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:42:07 INFO  Steps:173 - End Ponint is running
+20:42:07 INFO  LogUtil:37 - Logger : End Ponint is running
+20:42:29 INFO  RESTHelper:210 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:42:29 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:42:29 INFO  RESTHelper:216 - value of Per Page Value is --->:3
+20:42:29 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+20:42:29 INFO  RESTHelper:224 - value of Total is --->:12
+20:42:29 INFO  LogUtil:37 - Logger : value of Total is --->:12
+20:42:29 INFO  Steps:222 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:42:29 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:42:29 INFO  Steps:173 - End Ponint is running
+20:42:29 INFO  LogUtil:37 - Logger : End Ponint is running
+20:42:30 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Leader","id":null,"createdAt":null}
+20:43:01 INFO  Steps:138 - Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+20:43:01 INFO  LogUtil:37 - Logger : Sending Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>England</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
+20:43:01 INFO  Steps:146 - Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+20:43:01 INFO  LogUtil:37 - Logger : Got response:<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CountriesResponse xmlns:m="https://footballpool.dataaccess.eu">
+      <m:CountriesResult>
+        <m:tCountry>
+          <m:iId>261</m:iId>
+          <m:sName>England</m:sName>
+          <m:sISOCode></m:sISOCode>
+        </m:tCountry>
+      </m:CountriesResult>
+    </m:CountriesResponse>
+  </soap:Body>
+</soap:Envelope>
+20:43:01 INFO  Steps:150 - GOT RESPONSE --->: PASS
+20:43:01 INFO  LogUtil:37 - Logger : GOT RESPONSE --->: PASS
+20:55:27 INFO  Main:193 - Found stories: [stories/01.Phase1/01.MB_Login_Page/a.login.story, stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/b.REST_GETAPI_With_Headers.story, stories/01.Phase1/02.REST_API_REQUEST/c.REST_POSTAPI.story]
+20:55:44 INFO  Steps:173 - End Ponint is running
+20:55:44 INFO  LogUtil:37 - Logger : End Ponint is running
+20:55:51 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:55:51 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+20:55:51 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+20:55:51 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+20:55:51 INFO  RESTHelper:179 - value of Total is --->:12
+20:55:51 INFO  LogUtil:37 - Logger : value of Total is --->:12
+20:55:51 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:55:51 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+20:55:51 INFO  Steps:173 - End Ponint is running
+20:55:51 INFO  LogUtil:37 - Logger : End Ponint is running
+20:57:21 INFO  Steps:173 - End Ponint is running
+20:57:21 INFO  LogUtil:37 - Logger : End Ponint is running
+20:57:23 INFO  LogUtil:37 - Logger : POST REQUEST.....>{"name":"Bluth","job":"Leader","id":null,"createdAt":null}
+20:57:24 INFO  LogUtil:37 - Logger : POST RESPONSE.....>{"createdAt":"2019-04-24T20:02:25.133Z","name":"Bluth","id":"43","job":"Leader"}
+20:57:24 INFO  LogUtil:37 - Logger : NAME.....>Bluth
+20:57:24 INFO  LogUtil:37 - Logger : JOB.....>Leader
+20:57:24 INFO  LogUtil:37 - Logger : ID.....>Leader
+20:57:24 INFO  LogUtil:37 - Logger : CREATED AT.....>2019-04-24T20:02:25.133Z
+09:17:07 INFO  Main:193 - Found stories: [stories/01.Phase1/02.REST_API_REQUEST/a.REST_GETAPI_Without_Headers.story]
+09:17:08 INFO  Steps:173 - End Ponint is running
+09:17:08 INFO  LogUtil:37 - Logger : End Ponint is running
+09:17:11 INFO  RESTHelper:165 - Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+09:17:11 INFO  LogUtil:37 - Logger : Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}
+09:17:11 INFO  RESTHelper:171 - value of Per Page Value is --->:3
+09:17:11 INFO  LogUtil:37 - Logger : value of Per Page Value is --->:3
+09:17:11 INFO  RESTHelper:179 - value of Total is --->:12
+09:17:11 INFO  LogUtil:37 - Logger : value of Total is --->:12
+09:17:11 INFO  Steps:212 - Got response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+09:17:11 INFO  LogUtil:37 - Logger : Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}

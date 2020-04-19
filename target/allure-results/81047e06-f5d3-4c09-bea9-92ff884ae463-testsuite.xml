@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1556381831703" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1556381828693" stop="1556381831468" status="passed">
+            <name>Verify that user is able to get the REST API Reponse without headers</name>
+            <steps>
+                <step start="1556381828730" stop="1556381828755" status="passed">
+                    <name>Given that REST API Endpoint is accessible</name>
+                    <title>Given that REST API Endpoint is accessible</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556381828753" stop="1556381828755" status="passed">
+                            <name>End Ponint is running</name>
+                            <title>End Ponint is running</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556381828755" stop="1556381831213" status="passed">
+                    <name>When I open the URL and validate the status code</name>
+                    <title>When I open the URL and validate the status code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556381831214" stop="1556381831464" status="passed">
+                    <name>Then I get a success response and validate &lt;FirstArray_lastname&gt; and &lt;SecondArray_Firstname&gt; JSON file</name>
+                    <title>Then I get a success response and validate &lt;FirstArray_lastname&gt; and &lt;SecondArray_Firstname&gt; JSON file</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556381831422" stop="1556381831422" status="passed">
+                            <name>Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}</name>
+                            <title>Got JSON response:{"per_page":3,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma"}],"page":1,"total_pages":4}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1556381831455" stop="1556381831455" status="passed">
+                            <name>value of Per Page Value is ---&gt;:3</name>
+                            <title>value of Per Page Value is ---&gt;:3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1556381831461" stop="1556381831461" status="passed">
+                            <name>value of Total is ---&gt;:12</name>
+                            <title>value of Total is ---&gt;:12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1556381831464" stop="1556381831464" status="passed">
+                            <name>Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}</name>
+                            <title>Got String response:{"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

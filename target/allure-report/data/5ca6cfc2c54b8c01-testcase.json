@@ -1,0 +1,158 @@
+{
+  "uid" : "5ca6cfc2c54b8c01",
+  "name" : "Verify that user is able to get the REST API Reponse without headers",
+  "title" : "Verify that user is able to get the REST API reponse without headers",
+  "time" : {
+    "start" : 1556381828693,
+    "stop" : 1556381831468,
+    "duration" : 2775
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 8
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7b7e7a37c52f6fab",
+    "name" : "UnknownTestSuite",
+    "title" : "Unknown test suite"
+  },
+  "steps" : [ {
+    "name" : "Given that REST API Endpoint is accessible",
+    "title" : "Given that REST API Endpoint is accessible",
+    "time" : {
+      "start" : 1556381828730,
+      "stop" : 1556381828755,
+      "duration" : 25
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "End Ponint is running",
+      "title" : "End Ponint is running",
+      "time" : {
+        "start" : 1556381828753,
+        "stop" : 1556381828755,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "When I open the URL and validate the status code",
+    "title" : "When I open the URL and validate the status code",
+    "time" : {
+      "start" : 1556381828755,
+      "stop" : 1556381831213,
+      "duration" : 2458
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I get a success response and validate <FirstArray_lastname> and <SecondArray_Firstname> JSON file",
+    "title" : "Then I get a success response and validate <FirstArray_lastname> and <SecondArray_Firstname> JSON file",
+    "time" : {
+      "start" : 1556381831214,
+      "stop" : 1556381831464,
+      "duration" : 250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 4
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Got JSON response:{\"per_page\":3,\"total\":12,\"data\":[{\"last_name\":\"Bluth\",\"id\":1,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\",\"first_name\":\"George\"},{\"last_name\":\"Weaver\",\"id\":2,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\",\"first_name\":\"Janet\"},{\"last_name\":\"Wong\",\"id\":3,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\",\"first_name\":\"Emma\"}],\"page\":1,\"total_pages\":4}",
+      "title" : "Got JSON response:{\"per_page\":3,\"total\":12,\"data\":[{\"last_name\":\"Bluth\",\"id\":1,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\",\"first_name\":\"George\"},{\"last_name\":\"Weaver\",\"id\":2,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\",\"first_name\":\"Janet\"},{\"last_name\":\"Wong\",\"id\":3,\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\",\"first_name\":\"Emma\"}],\"page\":1,\"total_pages\":4}",
+      "time" : {
+        "start" : 1556381831422,
+        "stop" : 1556381831422,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "value of Per Page Value is --->:3",
+      "title" : "value of Per Page Value is --->:3",
+      "time" : {
+        "start" : 1556381831455,
+        "stop" : 1556381831455,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "value of Total is --->:12",
+      "title" : "value of Total is --->:12",
+      "time" : {
+        "start" : 1556381831461,
+        "stop" : 1556381831461,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Got String response:{\"page\":1,\"per_page\":3,\"total\":12,\"total_pages\":4,\"data\":[{\"id\":1,\"first_name\":\"George\",\"last_name\":\"Bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\"},{\"id\":2,\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},{\"id\":3,\"first_name\":\"Emma\",\"last_name\":\"Wong\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\"}]}",
+      "title" : "Got String response:{\"page\":1,\"per_page\":3,\"total\":12,\"total_pages\":4,\"data\":[{\"id\":1,\"first_name\":\"George\",\"last_name\":\"Bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\"},{\"id\":2,\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},{\"id\":3,\"first_name\":\"Emma\",\"last_name\":\"Wong\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\"}]}",
+      "time" : {
+        "start" : 1556381831464,
+        "stop" : 1556381831464,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : null
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

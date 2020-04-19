@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "5ca6cfc2c54b8c01",
+    "name" : "Verify that user is able to get the REST API Reponse without headers",
+    "title" : "Verify that user is able to get the REST API reponse without headers",
+    "time" : {
+      "start" : 1556381828693,
+      "stop" : 1556381831468,
+      "duration" : 2775
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

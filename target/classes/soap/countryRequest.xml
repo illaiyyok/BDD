@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foot="https://footballpool.dataaccess.eu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foot:Countries>
+         <foot:sCountryName>soap.countryName</foot:sCountryName>
+      </foot:Countries>
+   </soapenv:Body>
+</soapenv:Envelope>
